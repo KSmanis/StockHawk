@@ -32,6 +32,7 @@
 
     <string name="toast_stock_added_no_connectivity">Symbol %s added. Will refresh when network available.</string>
     <string name="toast_no_connectivity">Will refresh when network available.</string>
+    <string name="toast_invalid_symbol">Invalid symbol: <xliff:g id="symbol" example="GOOG">%1$s</xliff:g></string>
 
     <string name="a11y_main_fab">Add a stock</string>
     <string name="a11y_quote_symbol">Symbol: <xliff:g>%1$s</xliff:g></string>
