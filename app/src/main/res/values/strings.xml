@@ -39,4 +39,7 @@
     <string name="a11y_quote_price">Price: <xliff:g id="price" example="$123.45">%1$s</xliff:g></string>
     <string name="a11y_quote_change">Change: <xliff:g id="change" example="-1.23%">%1$s</xliff:g></string>
 
+    <string name="positive_prefix_absolute" translatable="false">+$</string>
+    <string name="positive_prefix_percentage" translatable="false">+</string>
+
 </resources>
