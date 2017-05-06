@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Stock Hawk</string>
 
     <string name="pref_stocks_initialized_key" translatable="false">initialized</string>
@@ -18,7 +18,8 @@
     <string name="default_stocks_facebook" translatable="false">FB</string>
 
 
-    <string name="action_change_units" translatable="false">@string/pref_display_mode_key</string>
+    <string name="action_change_to_absolute_units">Show absolute changes</string>
+    <string name="action_change_to_percentage_units">Show percentage changes</string>
 
 
     <string name="dialog_title">Add Stock</string>
@@ -31,5 +32,10 @@
 
     <string name="toast_stock_added_no_connectivity">Symbol %s added. Will refresh when network available.</string>
     <string name="toast_no_connectivity">Will refresh when network available.</string>
+
+    <string name="a11y_main_fab">Add a stock</string>
+    <string name="a11y_quote_symbol">Symbol: <xliff:g>%1$s</xliff:g></string>
+    <string name="a11y_quote_price">Price: <xliff:g>%1$s</xliff:g></string>
+    <string name="a11y_quote_change">Change: <xliff:g>%1$s</xliff:g></string>
 
 </resources>
