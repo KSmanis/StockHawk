@@ -35,8 +35,8 @@
     <string name="toast_invalid_symbol">Invalid symbol: <xliff:g id="symbol" example="GOOG">%1$s</xliff:g></string>
 
     <string name="a11y_main_fab">Add a stock</string>
-    <string name="a11y_quote_symbol">Symbol: <xliff:g>%1$s</xliff:g></string>
-    <string name="a11y_quote_price">Price: <xliff:g>%1$s</xliff:g></string>
-    <string name="a11y_quote_change">Change: <xliff:g>%1$s</xliff:g></string>
+    <string name="a11y_quote_symbol">Symbol: <xliff:g id="symbol" example="GOOG">%1$s</xliff:g></string>
+    <string name="a11y_quote_price">Price: <xliff:g id="price" example="$123.45">%1$s</xliff:g></string>
+    <string name="a11y_quote_change">Change: <xliff:g id="change" example="-1.23%">%1$s</xliff:g></string>
 
 </resources>
