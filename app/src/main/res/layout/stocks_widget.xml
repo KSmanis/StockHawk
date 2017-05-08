@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="@dimen/stocks_widget_margin">
+    android:padding="@dimen/stocks_widget_margin"
+    android:background="@android:color/black">
 
     <ListView
         android:id="@+id/stocks_widget_list"
