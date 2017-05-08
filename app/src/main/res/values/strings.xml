@@ -41,5 +41,7 @@
 
     <string name="positive_prefix_absolute" translatable="false">+$</string>
     <string name="positive_prefix_percentage" translatable="false">+</string>
+    
+    <string name="widget_empty">No stocks were found!</string>
 
 </resources>
