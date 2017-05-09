@@ -10,6 +10,7 @@ import android.widget.RemoteViewsService;
 import com.udacity.stockhawk.R;
 import com.udacity.stockhawk.data.Contract;
 import com.udacity.stockhawk.data.PrefUtils;
+import com.udacity.stockhawk.ui.DetailsActivity;
 
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
@@ -90,6 +91,9 @@ public class StocksWidgetRemoteViewsService extends RemoteViewsService {
                         R.drawable.percent_change_pill_red);
                 views.setTextViewText(R.id.change, change);
                 views.setContentDescription(R.id.change, getString(R.string.a11y_quote_change, change));
+
+                views.setOnClickFillInIntent(R.id.list_item_quote, new Intent()
+                        .putExtra(DetailsActivity.EXTRA_SYMBOL, symbol));
 
                 return views;
             }
