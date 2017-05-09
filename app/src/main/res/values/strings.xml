@@ -27,6 +27,8 @@
     <string name="dialog_cancel">Cancel</string>
     <string name="dialog_add">Add</string>
 
+    <string name="details_title"><xliff:g id="symbol" example="GOOG">%1$s</xliff:g> History</string>
+
     <string name="error_no_network">No network connectivity! Will load stock cursor when the network is available.</string>
     <string name="error_no_stocks">No stocks added! Hit the floating action button to add one.</string>
 
@@ -38,6 +40,7 @@
     <string name="a11y_quote_symbol">Symbol: <xliff:g id="symbol" example="GOOG">%1$s</xliff:g></string>
     <string name="a11y_quote_price">Price: <xliff:g id="price" example="$123.45">%1$s</xliff:g></string>
     <string name="a11y_quote_change">Change: <xliff:g id="change" example="-1.23%">%1$s</xliff:g></string>
+    <string name="a11y_chart"><xliff:g id="symbol" example="GOOG">%1$s</xliff:g> History Chart</string>
 
     <string name="positive_prefix_absolute" translatable="false">+$</string>
     <string name="positive_prefix_percentage" translatable="false">+</string>
