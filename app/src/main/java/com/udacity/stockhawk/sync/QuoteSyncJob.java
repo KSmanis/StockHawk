@@ -78,7 +78,7 @@ public final class QuoteSyncJob {
 
 
                 Stock stock = quotes.get(symbol);
-                if (!stock.isValid()) {
+                if (stock == null || !stock.isValid()) {
                     Timber.d("Removing invalid symbol: " + symbol);
                     PrefUtils.removeStock(context, symbol);
                     new Handler(Looper.getMainLooper()).post(new Runnable() {
